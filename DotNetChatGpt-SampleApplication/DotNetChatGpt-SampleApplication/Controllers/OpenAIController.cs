@@ -6,7 +6,7 @@ namespace DotNetChatGpt_SampleApplication.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class OpenApiController : ControllerBase
+    public class OpenAIController : ControllerBase
     {
         [HttpGet]
         [Route("ChatGpt")]
