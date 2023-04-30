@@ -1,5 +1,4 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using OpenAI_API;
 using OpenAI_API.Completions;
 
@@ -25,7 +24,6 @@ namespace DotNetChatGpt_SampleApplication.Controllers
                 result += completion.Text;
             }
             return Ok(result);
-
         }
     }
 }
